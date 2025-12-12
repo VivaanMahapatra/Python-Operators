@@ -5,3 +5,8 @@ print(a is c)
 print(a is b)
 print(a is not b)
 print(a is not c)
+
+name = "Vivaan"
+char = "v"
+print(char in name)
+print(char not in name)
