@@ -1,0 +1,12 @@
+def value_frequency(d, value):
+    count = 0
+    for v in d.values():
+        if v == value:
+            count += 1
+    return count
+
+d = {'a': 10, 'b': 20, 'c': 10, 'd': 30, 'e': 10}
+value = 10
+
+result = value_frequency(d, value)
+print("Frequency:", result)
