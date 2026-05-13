@@ -1,0 +1,9 @@
+class Vehicle:
+
+    def __init__(self, maxpeed, mileague):
+        self.maxspeed = maxpeed
+        self.mileague = mileague
+
+modelX = Vehicle(240,18)
+print("Model Max Speed : ",modelX.maxspeed)
+print("Model Mileague : ",modelX.mileague)
