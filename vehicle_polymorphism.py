@@ -1,18 +1,23 @@
 class BMW:
-    def speed(self):
-        print("BMW runs at 250 km/h")
+    fuel_type = "Petrol"
+    max_speed = 250
 
-    def fuel(self):
-        print("BMW uses petrol")
+    def display(self):
+        print("BMW")
+        print("Fuel Type:", self.fuel_type)
+        print("Max Speed:", self.max_speed, "km/h")
+
 
 class Ferrari:
-    def speed(self):
-        print("Ferrari runs at 340 km/h")
+    fuel_type = "Petrol"
+    max_speed = 340
 
-    def fuel(self):
-        print("Ferrari uses petrol")
+    def display(self):
+        print("Ferrari")
+        print("Fuel Type:", self.fuel_type)
+        print("Max Speed:", self.max_speed, "km/h")
 
-for car in (BMW(), Ferrari()):
-    car.speed()
-    car.fuel()
+
+for vehicle in (BMW(), Ferrari()):
+    vehicle.display()
     print()
